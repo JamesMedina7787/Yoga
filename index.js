@@ -1,13 +1,19 @@
-$("#scroll-icon").click( () => {
-    $("html,body").animate({
-        scrollTop: $(".main-row").offset().top,
-    })
+const express = require('express');
+const app = express();
+const ejs = require('ejs');
+
+
+app.set('view engine', 'ejs')
+
+app.use(express.static('public'))
+
+app.get("/", (req, res)=>{
+  res.render('page9')
+})
+app.get("/page1", (req, res)=>{
+  res.render('page1')
 })
 
-const mobileNav = document.querySelector(".mobile-navigation ul");
-
-document.querySelector(".mobile-navigation i").addEventListener("click", ()=> {
-    mobileNav.classList.contains("show") ? mobileNav.classList.remove("show") : mobileNav.classList.add("show")
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
 });
-
-ScrollReveal().reveal('.main-row');

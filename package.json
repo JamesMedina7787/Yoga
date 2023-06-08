@@ -1,6 +1,34 @@
 {
-  "name": "Gia Site",
+  "name": "pureheartyoga",
   "version": "1.0.0",
+  "description": "New Hartford NY Yoga Fitness Weight Loss Wellness ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JamesMedina7787/giasPage.git"
+  },
+  "keywords": [
+    "New",
+    "Hartford",
+    "NY",
+    "Whitesboro",
+    "Yoga",
+    "Excercise",
+    "Fit",
+    "Fitness",
+    "Classes"
+  ],
+  "author": "JWM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesMedina7787/giasPage/issues"
+  },
+  "homepage": "https://github.com/JamesMedina7787/giasPage#readme",
   "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
   }
 }
