@@ -1,0 +1,30 @@
+{
+  "name": "yoga",
+  "version": "1.0.0",
+  "description": "Yoga is wellness, fitness, and above all else balance of mind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JamesMedina7787/Yoga.git"
+  },
+  "keywords": [
+    "yoga",
+    "wellness",
+    "fitness",
+    "cny",
+    "utica",
+    "whitesboro",
+    "gym",
+    "aerobics",
+    "class"
+  ],
+  "author": "jwm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesMedina7787/Yoga/issues"
+  },
+  "homepage": "https://github.com/JamesMedina7787/Yoga#readme"
+}
