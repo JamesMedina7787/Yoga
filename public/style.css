@@ -336,7 +336,7 @@ footer {
 /*Instagram Reel*/
 /*
 .insta {
-    
+
 
     --spacer: 2rem;
     margin: 0 auto;
@@ -351,11 +351,11 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     border: 3px solid black;
     background-color: pink;
-    
+
     background-image: url(https://images.unsplash.com/photo-1586809764311-090bc6068916?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 /*
@@ -363,21 +363,21 @@ footer {
     min-width: auto;
     min-height: auto;
     padding: 30px;
-    
-    
+
+
     float: left;
-    background:#FFF; 
-    border:0; 
-    border-radius:3px; 
-    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
-    margin: 0 auto; 
-    max-width:540px; 
-    min-width:326px; 
-    padding: 10px; 
+    background:#FFF;
+    border:0;
+    border-radius:3px;
+    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+    margin: 0 auto;
+    max-width:540px;
+    min-width:326px;
+    padding: 10px;
     object-fit: cover;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
     float: left;
     margin: 0 auto;
     display: grid;
@@ -387,7 +387,7 @@ footer {
     background: var(--surface-2);
     border: 3px solid limegreen;
     border-radius: var(--radius-2);
-      
+
 }
 */
 
@@ -398,8 +398,8 @@ footer {
 }
 
 .snaps-inline > * {
-    
-  
+
+
     scroll-snap-align: start;
 }
 
@@ -421,7 +421,7 @@ footer {
     padding: 30px;
     background-color: white;
     text-align: center;
-    max-width: min(90%,1000px); 
+    max-width: min(90%,1000px);
     margin: 0 auto;
 }
 
@@ -451,8 +451,8 @@ footer {
 .test-img-container blockquote {
     height: 281px;
     width: 500px;
-    
-    
+
+
 }
 
 .instagram-media {
@@ -463,7 +463,7 @@ footer {
 
 
 
-  
+
 .fa-brands:hover {
     opacity: 0.7;
 }
@@ -529,7 +529,7 @@ footer {
     /*
     left: 0;*/
     float: right;
-    
+
     font-size:24px;
     color: aqua;
     background-color: transparent;
@@ -612,12 +612,12 @@ footer {
     .left-login-container {
         display: none;
     }
-} 
-   
+}
+
 
 @media screen and (max-width: 500px) {
     .navigation {
-        display: none;  
+        display: none;
     }
     .mobile-navigation {
         display: block;
